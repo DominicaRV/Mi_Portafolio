@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(83, 83, 83, 0.938);
     position: sticky;
     top: 0;
 }
@@ -51,7 +51,7 @@
     top: 0;
     right: 0;
     background: url("/img/img2.jfif") no-repeat center center/cover;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     z-index: -1;
     
@@ -65,7 +65,7 @@
     align-items: center;
     position: absolute;
     top: 30%;
-    right: 10%;
+    right: 1%;
  }
 .headings{
     font-family: century;
