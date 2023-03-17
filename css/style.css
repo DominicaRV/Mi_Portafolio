@@ -2,15 +2,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box
+    box-sizing:border-box;
+    
 }
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(83, 83, 83, 0.938);
+   background-color:  rgba(83, 83, 83, 0.938);
     position: sticky;
     top: 0;
+    
 }
  .navbar ul{
     display: flex;
@@ -51,7 +53,7 @@
     top: 0;
     right: 0;
     background: url("/img/img2.jfif") no-repeat center center/cover;
-    height: 100%;
+    height: 150%;
     width: 100%;
     z-index: -1;
     
@@ -64,12 +66,13 @@
     /*border: 1px solid white;*/
     align-items: center;
     position: absolute;
-    top: 30%;
-    right: 1%;
+    top: 60%;
+    right: 5%;
+  
  }
 .headings{
     font-family: century;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin: 40px 0px;
 }
@@ -87,4 +90,25 @@
     color: black;
     box-shadow: 0 0 5px white,0 0 30px white,0 0 15px white;
     font-weight: bold;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
